@@ -17,3 +17,5 @@ To install the Clean Swift Xcode templates, run:
 To uninstall the Clean Swift Xcode templates, run:
 
 > make uninstall_templates
+
+Fix compile error.
