@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="qXK-Jc-mF3">
             <objects>
-                <collectionViewController storyboardIdentifier="___FILEBASENAME___ViewController" id="TAc-IP-cZZ" customClass="___FILEBASENAME___ViewController" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="___VARIABLE_sceneName:identifier___ViewController" id="TAc-IP-cZZ" customClass="___VARIABLE_sceneName:identifier___ViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="4WV-lD-CF3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,15 +8,15 @@
 
 import UIKit
 
-enum ___FILEBASENAMEASIDENTIFIER___Configurator {
-    static func configure(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+enum ___VARIABLE_sceneName:identifier___Configurator {
+    static func configure(viewController: ___VARIABLE_sceneName:identifier___ViewController) {
+        let router = ___VARIABLE_sceneName:identifier___Router()
         router.viewController = viewController
 
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
+        let presenter = ___VARIABLE_sceneName:identifier___Presenter()
         presenter.output = viewController
 
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+        let interactor = ___VARIABLE_sceneName:identifier___Interactor()
         interactor.output = presenter
 
         viewController.output = interactor

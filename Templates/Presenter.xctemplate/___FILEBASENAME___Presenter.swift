@@ -8,10 +8,10 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Presentable {
+protocol ___VARIABLE_sceneName:identifier___Presentable {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Presentable {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___Displayable!
+final class ___VARIABLE_sceneName:identifier___Presenter: ___VARIABLE_sceneName:identifier___Presentable {
+    weak var output: ___VARIABLE_sceneName:identifier___Displayable!
 }

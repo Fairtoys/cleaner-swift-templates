@@ -8,10 +8,10 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterInput {
+protocol ___VARIABLE_sceneName:identifier___RouterInput {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterInput {
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController!
+final class ___VARIABLE_sceneName:identifier___Router: ___VARIABLE_sceneName:identifier___RouterInput {
+    weak var viewController: ___VARIABLE_sceneName:identifier___ViewController!
 }

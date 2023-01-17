@@ -8,20 +8,20 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Displayable: class {
+protocol ___VARIABLE_sceneName:identifier___Displayable: AnyObject {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewController {
-    var output: ___FILEBASENAMEASIDENTIFIER___Interactable!
-    var router: ___FILEBASENAMEASIDENTIFIER___Router!
+final class ___VARIABLE_sceneName:identifier___ViewController: UICollectionViewController {
+    var output: ___VARIABLE_sceneName:identifier___Interactable!
+    var router: ___VARIABLE_sceneName:identifier___Router!
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        ___FILEBASENAMEASIDENTIFIER___Configurator.configure(viewController: self)
+        ___VARIABLE_sceneName:identifier___Configurator.configure(viewController: self)
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___Displayable {
+extension ___VARIABLE_sceneName:identifier___ViewController: ___VARIABLE_sceneName:identifier___Displayable {
 
 }

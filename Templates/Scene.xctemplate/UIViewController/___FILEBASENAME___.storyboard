@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="Edj-wP-zYE">
             <objects>
-                <viewController storyboardIdentifier="___FILEBASENAME___ViewController" id="ye0-BG-Ygq" customClass="___FILEBASENAME___ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="___VARIABLE_sceneName:identifier___ViewController" id="ye0-BG-Ygq" customClass="___VARIABLE_sceneName:identifier___ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e2h-zI-5hd"/>
                         <viewControllerLayoutGuide type="bottom" id="Nw7-DT-Xl1"/>

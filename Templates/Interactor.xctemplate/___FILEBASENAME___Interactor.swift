@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Interactable {
+protocol ___VARIABLE_sceneName:identifier___Interactable {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___Interactable {
-    var output: ___FILEBASENAMEASIDENTIFIER___Presentable!
-    var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
+final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___VARIABLE_sceneName:identifier___Interactable {
+    var output: ___VARIABLE_sceneName:identifier___Presentable!
+    var worker: ___VARIABLE_sceneName:identifier___Worker!
 }

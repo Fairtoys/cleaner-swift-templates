@@ -8,6 +8,6 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Worker {
+final class ___VARIABLE_sceneName:identifier___Worker {
    
 }
