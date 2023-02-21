@@ -12,6 +12,11 @@ protocol ___VARIABLE_sceneName:identifier___RouterInput {
 
 }
 
-final class ___VARIABLE_sceneName:identifier___Router: ___VARIABLE_sceneName:identifier___RouterInput {
+protocol ___VARIABLE_sceneName:identifier___DataPassing {
+
+}
+
+final class ___VARIABLE_sceneName:identifier___Router: ___VARIABLE_sceneName:identifier___RouterInput, ___VARIABLE_sceneName:identifier___DataPassing {
     weak var viewController: ___VARIABLE_sceneName:identifier___ViewController!
+    var dataStore: ___VARIABLE_sceneName:identifier___DataStore?
 }

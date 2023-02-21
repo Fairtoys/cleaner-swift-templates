@@ -21,5 +21,7 @@ enum ___VARIABLE_sceneName:identifier___Configurator {
 
         viewController.output = interactor
         viewController.router = router
+
+        router.dataStore = interactor
     }
 }

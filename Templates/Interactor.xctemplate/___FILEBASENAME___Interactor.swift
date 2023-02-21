@@ -12,7 +12,12 @@ protocol ___VARIABLE_sceneName:identifier___Interactable {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___VARIABLE_sceneName:identifier___Interactable {
+protocol ___VARIABLE_sceneName:identifier___DataStore {
+
+    
+}
+
+final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___VARIABLE_sceneName:identifier___Interactable, ___VARIABLE_sceneName:identifier___DataStore {
     var output: ___VARIABLE_sceneName:identifier___Presentable!
     var worker: ___VARIABLE_sceneName:identifier___Worker!
 }
