@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//  Copyright © ___YEAR___ . All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ protocol ___VARIABLE_sceneName:identifier___Displayable: AnyObject {
 }
 
 final class ___VARIABLE_sceneName:identifier___ViewController: UIViewController {
-    var output: ___VARIABLE_sceneName:identifier___Interactable!
+    var interactable: ___VARIABLE_sceneName:identifier___Interactable!
     var router: ___VARIABLE_sceneName:identifier___Router!
 
     override func awakeFromNib() {
